@@ -11,6 +11,7 @@ RUN mkdir -p /home/myuser/code && chown -R myuser:myuser /home/myuser/code
 WORKDIR /home/myuser/code
 
 RUN apt update
+RUN apt-get install gcc
 RUN pip install --upgrade pip
 RUN pip install numpy==1.24.4
 RUN pip install pandas==2.0.3
@@ -24,3 +25,4 @@ RUN pip install pykan
 RUN pip install setuptools==65.5.0
 RUN pip install sympy==1.11.1
 RUN pip install tqdm==4.66.2
+RUN pip install pycatch22
