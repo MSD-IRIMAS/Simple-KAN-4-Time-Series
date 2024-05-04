@@ -1,9 +1,10 @@
 from kan import KAN
-import matplotlib.pyplot as plt
 import torch
 import numpy as np
 
 from aeon.transformations.collection.feature_based import Catch22
+
+from typing import Tuple
 
 
 class KAN_CLASSIFIER:
@@ -60,9 +61,27 @@ class KAN_CLASSIFIER:
             ).float()
         )
 
-    def fit(
+    def fit_and_validate(
         self, xtrain: np.ndarray, ytrain: np.ndarray, xval: np.ndarray, yval: np.ndarray
-    ):
+    ) -> Tuple[float, float]:
+        """Training and Evaluating the model.
+
+        Parameters
+        ----------
+        xtrain: np.ndarray of shape (n_instances, n_timepoints)
+            The input time series for training.
+        ytrain: np.ndarray of shape (n_instances)
+            The labels of the training samples
+        xval: np.ndarray of shape (n_instances, n_timepoints)
+            The input time series for validation.
+        yval: np.ndarray of shape (n_instances)
+            The labels of the validation samples
+
+        Returns
+        -------
+        Tuple[float, float]
+            The accuracies on both train and validation.
+        """
         catch22_transformer = Catch22(use_pycatch22=True)
         xtrain = catch22_transformer.fit_transform(np.expand_dims(xtrain, axis=1))
         xval = catch22_transformer.fit_transform(np.expand_dims(xval, axis=1))
