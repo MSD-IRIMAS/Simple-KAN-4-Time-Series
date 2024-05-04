@@ -11,7 +11,7 @@ __pycache__/
 *.csv
 *.out
 *.yaml
-!./config/config_hydra.yaml
+!config/config_hydra.yaml
 
 
 # Distribution / packaging
