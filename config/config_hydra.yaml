@@ -1,0 +1,17 @@
+hydra :
+  job :
+    name : using-kan-for-ts
+  run :
+    dir : exps/${hydra.job.name}
+
+
+task_to_solve: "classification"
+dataset: "Crop"
+output_dir: "results/"
+width: Null
+steps: 20
+k: 3
+grid: 3
+random_state: Null
+get_formulas: False
+runs: 5
