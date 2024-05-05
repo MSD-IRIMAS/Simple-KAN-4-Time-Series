@@ -7,6 +7,7 @@ Given that a KAN model is still a fully connected network, it will not be able t
 In this repository, we present a classifier based on extracting the Catch22 features [Lubba et al. 2019 [2]](https://link.springer.com/article/10.1007/s10618-019-00647-x) followed by KAN classifier.
 In order to showcase the performance of KAN, we compare it to using a softmax classifier on top of the Catch22 features.
 The model of course can work with any type of transformation on time series data, we chose Catch22 for simpliciy.
+We use the [aeon](https://github.com/aeon-toolkit/aeon) python package for the feature extraction part.
 
 ## Datasets
 
