@@ -59,12 +59,12 @@ The code will generate per dataset a directory containing a csv file, with four 
 
 Examples of some UCR datasets where KAN improves the classification performance:
 
-| Dataset              | Test Accuracy with KAN | Test Accuracy with softmax |
-| :------------------- | :--------------------: | -------------------------: |
-| Chinatown            |         85.13 %        |           62.09 %          |
-| ItalyPowerDemand     |         91.29 %        |           82.41 %          |
-| ECG200               |         78.60 %        |           75.00 %          |
-| ArrowHead            |         67.99 %        |           63.42 %          |
+| Dataset              | Test Accuracy with KAN | Test Accuracy with softmax  |
+| :------------------- | :--------------------: | :-------------------------: |
+| Chinatown            |         85.13 %        |           62.09 %           |
+| ItalyPowerDemand     |         91.29 %        |           82.41 %           |
+| ECG200               |         78.60 %        |           75.00 %           |
+| ArrowHead            |         67.99 %        |           63.42 %           |
 
 ## Citing this work
 
