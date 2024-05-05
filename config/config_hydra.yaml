@@ -6,7 +6,7 @@ hydra :
 
 
 task_to_solve: "classification"
-dataset: "Crop"
+dataset: "ArrowHead"
 output_dir: "results/"
 width: Null
 steps: 20
