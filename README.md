@@ -18,6 +18,8 @@ Make sure to download the datasets and extract the zip folder.
 
 If you are familiar with docker, simply build the image using the dockerfile provided as follows:
 
+```PS:``` Make sure to adjust the `USER_ID` and `GROUP_ID` arguments in the dockerfile to align with your local machine before building the image.
+
 ```docker build -t kan-ts-image .```
 
 Following the image being built, create your docker container and mount the UCR archive datasets into the `/home/myuser/ucr_archive` directory and your current working directory to `/home/myuser/code` directory, as follows:
