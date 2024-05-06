@@ -30,7 +30,7 @@ Make sure to replace `/path/to/ucr/archiev/on/your/machine/` by the directory on
 
 Once the containter is created, exit and execute it again in root mode with:
 
-```docker start kan-ts-container````
+```docker start kan-ts-container```
 
 and
 
