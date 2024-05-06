@@ -28,6 +28,21 @@ Following the image being built, create your docker container and mount the UCR 
 
 Make sure to replace `/path/to/ucr/archiev/on/your/machine/` by the directory on your local machine.
 
+Once the containter is created, exit and execute it again in root mode with:
+
+```docker start kan-ts-container````
+
+and
+
+```docker exec -it -u root kan-ts-container bash```
+
+Once in root mode, install gcc and pycatch22 with:
+
+```
+$ apg-get install gcc
+$ pip install pycatch22
+```
+
 ## Requirements
 
 ```
