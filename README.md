@@ -80,6 +80,10 @@ Examples of some UCR datasets where KAN improves the classification performance:
 | ItalyPowerDemand     |         91.29 %        |           82.41 %           |
 | ECG200               |         78.60 %        |           75.00 %           |
 | ArrowHead            |         67.99 %        |           63.42 %           |
+| CricketX             |         51.90 %        |           35.64 %           |
+| CricketY             |         49.13 %        |           32.31 %           |
+| CricketZ             |         52.62 %        |           35.90 %           |
+| Beef                 |         44.00 %        |           36.67 %           |
 
 ## Citing this work
 
