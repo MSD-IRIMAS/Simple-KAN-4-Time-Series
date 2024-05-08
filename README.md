@@ -70,7 +70,7 @@ This code uses hydra for the parameters configuration, so simply edit the `confi
 
 ## Results
 
-The code will generate per dataset a directory containing a csv file, with four columns, accuracy meand and std over five runs on both Catch22+KAN classifier and Catch22+softmax classifier.
+The code will generate per dataset a directory containing a csv file, with four columns, accuracy mean and std over five runs on both Catch22+KAN classifier and Catch22+softmax classifier.
 
 Examples of some UCR datasets where KAN improves the classification performance:
 
