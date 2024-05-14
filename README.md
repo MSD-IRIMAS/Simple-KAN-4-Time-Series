@@ -1,5 +1,12 @@
 # KAN it be used for Time Series Classification ?
 
+<p align="center">
+    <a href="https://star-history.com/#MSD-IRIMAS/Simple-KAN-4-Time-Series&Date">
+        <img src="https://api.star-history.com/svg?repos=MSD-IRIMAS/Simple-KAN-4-Time-Series&type=Date" alt="Star History Chart" width="60%"/>
+    </a>
+</p>
+
+
 author : [Ali Ismail-Fawaz](https://hadifawaz1999.github.io/) - [@hadifawaz1999](https://github.com/hadifawaz1999)
 
 In this repository, we present a feature-based Time Series Classifier based on [Kolmogorov–Arnold Networks (KANs)](https://github.com/KindXiaoming/pykan) proposed by [Liu et al. 2024 [1]](https://arxiv.org/pdf/2404.19756).
