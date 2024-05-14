@@ -1,9 +1,7 @@
 # KAN it be used for Time Series Classification ?
 
 <p align="center">
-    <a href="https://star-history.com/#MSD-IRIMAS/Simple-KAN-4-Time-Series&Date">
         <img src="https://api.star-history.com/svg?repos=MSD-IRIMAS/Simple-KAN-4-Time-Series&type=Date" alt="Star History Chart" width="60%"/>
-    </a>
 </p>
 
 
