@@ -115,3 +115,4 @@ If you use this work, please make sure to cite this code repository as follows:
 
 We would like to thank the authors of the Kolmogorov–Arnold Networks paper for their amazing work as well as the authors of the UCR archive for making the Time Series Classification datasets publicly available.
 We would also like to thank the Aeon and Pycatch22 python packages for their implementation of the Catch22 feature extractor.
+This work was supported by the ANR DELEGATION project (grant ANR-21-CE23-0014) of the French Agence Nationale de la Recherche.
